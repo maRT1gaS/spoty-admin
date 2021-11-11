@@ -1,5 +1,5 @@
 import { Song } from '../../../interfaces/Song.interface';
 
-export interface SongItemProps {
-  song: Song;
+export interface SongsListProps {
+  songsList: [] | Song[];
 }

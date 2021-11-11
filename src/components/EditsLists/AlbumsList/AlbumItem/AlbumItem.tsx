@@ -13,12 +13,12 @@ import {
   ArtistItemBtnSvg,
   StyleLink,
 } from './AlbumItem.style';
-import EditIcon from '../../../assets/svg/edit.svg';
-import RemoveIcon from '../../../assets/svg/remove.svg';
-import { useAppDispatch } from '../../../hooks/reduxHooks';
-import { fetchDelAlbum } from '../../../redux/slices/albumsSlice';
-import { closeConfirmation } from '../../../redux/slices/confirmationSlice';
-import { openEditWindow, deleteItem } from '../../../helpers/editFunc';
+import EditIcon from '../../../../assets/svg/edit.svg';
+import RemoveIcon from '../../../../assets/svg/remove.svg';
+import { useAppDispatch } from '../../../../hooks/reduxHooks';
+import { fetchDelAlbum } from '../../../../redux/slices/albumsSlice';
+import { closeConfirmation } from '../../../../redux/slices/confirmationSlice';
+import { openEditWindow, deleteItem } from '../../../../helpers/editFunc';
 
 export const AlbumItem: React.FC<AlbumItemProps> = ({
   album,

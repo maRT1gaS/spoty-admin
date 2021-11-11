@@ -13,13 +13,13 @@ import {
   ArtistItemBtnSvg,
   StyleLink,
 } from './ArtistItem.style';
-import { Tags } from '../../Tags/Tags';
-import EditIcon from '../../../assets/svg/edit.svg';
-import RemoveIcon from '../../../assets/svg/remove.svg';
-import { useAppDispatch } from '../../../hooks/reduxHooks';
-import { fetchDelArtist } from '../../../redux/slices/artistsSlice';
-import { closeConfirmation } from '../../../redux/slices/confirmationSlice';
-import { openEditWindow, deleteItem } from '../../../helpers/editFunc';
+import { Tags } from '../../../Tags/Tags';
+import EditIcon from '../../../../assets/svg/edit.svg';
+import RemoveIcon from '../../../../assets/svg/remove.svg';
+import { useAppDispatch } from '../../../../hooks/reduxHooks';
+import { fetchDelArtist } from '../../../../redux/slices/artistsSlice';
+import { closeConfirmation } from '../../../../redux/slices/confirmationSlice';
+import { openEditWindow, deleteItem } from '../../../../helpers/editFunc';
 
 export const ArtistItem: React.FC<ArtistItemProps> = ({
   artist,

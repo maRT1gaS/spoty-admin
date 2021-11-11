@@ -10,12 +10,12 @@ import {
   ItemSpan,
   ItemBtnSvg,
 } from './SongItem.style';
-import EditIcon from '../../../assets/svg/edit.svg';
-import RemoveIcon from '../../../assets/svg/remove.svg';
-import { useAppDispatch } from '../../../hooks/reduxHooks';
-import { fetchDelSong } from '../../../redux/slices/songsSlice';
-import { closeConfirmation } from '../../../redux/slices/confirmationSlice';
-import { openEditWindow, deleteItem } from '../../../helpers/editFunc';
+import EditIcon from '../../../../assets/svg/edit.svg';
+import RemoveIcon from '../../../../assets/svg/remove.svg';
+import { useAppDispatch } from '../../../../hooks/reduxHooks';
+import { fetchDelSong } from '../../../../redux/slices/songsSlice';
+import { closeConfirmation } from '../../../../redux/slices/confirmationSlice';
+import { openEditWindow, deleteItem } from '../../../../helpers/editFunc';
 
 export const SongItem: React.FC<SongItemProps> = ({
   song,

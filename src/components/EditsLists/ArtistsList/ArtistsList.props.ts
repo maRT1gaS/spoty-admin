@@ -1,5 +1,5 @@
 import { Artist } from '../../../interfaces/Artist.interface';
 
-export interface ArtistItemProps {
-  artist: Artist;
+export interface ArtistsListProps {
+  artistsList: [] | Artist[];
 }

@@ -4,9 +4,9 @@ export * from './HomeLink/HomeLink';
 
 export * from './ProtectedRoute/ProtectedRoute';
 
-export * from './ArtistsList/ArtistsList';
-export * from './AlbumsList/AlbumsList';
-export * from './SongsList/SongsList';
+export * from './EditsLists/ArtistsList/ArtistsList';
+export * from './EditsLists/AlbumsList/AlbumsList';
+export * from './EditsLists/SongsList/SongsList';
 
 export * from './Confirmation/Confirmation';
 export * from './EditModal/EditModalArtist/EditModalArtist';

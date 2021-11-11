@@ -21,7 +21,12 @@ const store = configureStore({
     getDefaultMiddleware({
       serializableCheck: {
         ignoredPaths: ['confirmation.onClick', 'payload.onClick'],
-        ignoredActionPaths: ['payload.onClick'],
+        ignoredActionPaths: [
+          'payload.onClick',
+          'meta.arg.image',
+          'meta.arg.values.image',
+          'meta.arg.song',
+        ],
       },
     }),
 });
