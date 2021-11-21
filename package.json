@@ -1,10 +1,10 @@
 {
-  "name": "clone-spotify",
+  "name": "spoty-admin",
   "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maRT1gaS/clone-spotify.git"
+    "url": "https://github.com/maRT1gaS/spoty-admin.git"
   },
   "proxy": "http://localhost:5000",
   "scripts": {
@@ -14,9 +14,7 @@
     "eslint": "eslint src --ext .js,.jsx -c ./.eslintrc.json",
     "eslint:fix": "eslint src --ext .js,.jsx -c ./.eslintrc.json --fix",
     "stylelint": "npx stylelint src --config ./.stylelintrc.json",
-    "stylelint:fix": "npx stylelint src --config ./.stylelintrc.json --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "stylelint:fix": "npx stylelint src --config ./.stylelintrc.json --fix"
   },
   "author": "Dmitry Zuev",
   "license": "ISC",

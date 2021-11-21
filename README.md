@@ -14,3 +14,9 @@
 ### or
 
 &emsp;Prod build: **npm run build**
+
+---
+
+## Client part:
+
+&emsp;https://github.com/maRT1gaS/spoty
