@@ -20,7 +20,7 @@ module.exports = {
     }),
     new StylelintPlugin({
       configFile: './.stylelintrc.json',
-      extensions: ['css', 'ts'],
+      extensions: ['css', 'ts', 'tsx'],
       fix: true,
     }),
     new EslintWebpackPlugin({

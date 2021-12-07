@@ -26,10 +26,8 @@ export const Artists: React.FC = (): JSX.Element => {
   }));
 
   useEffect((): void => {
-    if (artistsList.length === 0) {
-      dispatch(fetchGetArtists());
-    }
-  }, [artistsList.length, dispatch]);
+    dispatch(fetchGetArtists());
+  }, [dispatch]);
 
   return (
     <>

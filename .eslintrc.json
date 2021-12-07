@@ -32,7 +32,9 @@
         "jsx-a11y"
     ],
     "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier":["error", {
+          "endOfLine": "auto"
+        }],
         "no-console": "warn",
         "import/prefer-default-export": "off",
         "jsx-a11y/label-has-associated-control": ["error", {
@@ -47,7 +49,7 @@
           }],
           "react/prefer-stateless-function": "off",
           "no-param-reassign": ["error", { "props": false }],
-          "react/jsx-props-no-spreading": "off"
-          
+          "react/jsx-props-no-spreading": "off",
+          "id-match": ["error", "^[_a-zA-Z]*$"]
     }
 }

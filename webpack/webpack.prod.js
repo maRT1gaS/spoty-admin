@@ -44,7 +44,7 @@ module.exports = merge(common, {
       {
         test: /\.(ts|tsx)$/i,
         use: ['babel-loader'],
-        exclude: ['node_modules', '*.style.tsx'],
+        exclude: ['/node_modules/'],
       },
       {
         test: /\.css$/i,
